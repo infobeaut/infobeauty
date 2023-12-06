@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background-color: #eeb6c1c5;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    background: linear-gradient( to right, #eeb6c1,#c6e5ea), transparent;
+    text-align: center;
+
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 5px 0px;
+    display: inline-block;
+    margin: 15px 10px ;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: all 0.25s ease-in-out;
+
+}
+nav ul li a:hover {
+    border-bottom: 3px solid white;
+
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+section h1{
+    font-size: 50px;
+    color: white;
+}
+section:nth-of-type(1){
+    background-image: url("img/esfumado.jpg");
+
+
+}
+section:nth-of-type(2){
+    background-image: url("img/cilios.jpg");
+}
+section:nth-of-type(3){
+    background-image: url("img/lapis.jpg");
+}
+p{
+    text-align: left;
+    height: 100%;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 50px 50px 5px 50px;
+    margin: 0px;
+    line-height: 2;
+    font-weight: bold;
+    color: hwb(0 0% 100% / 0.699);
+    column-count: 3;
+    column-gap: 3rem;
+    column-rule: 5px dotted #f1899e;
+    display: inline-block;
+}
+@media screen and (max-width: 768px) {
+    p{
+      text-align: left;
+      background-color: #eeb6c1c5;
+      height: 100%;
+      border-radius: 5px;
+      box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.158);
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 18px;
+      padding: 50px 50px 5px 50px;
+      margin: 0px;
+      line-height: 2;
+      font-weight: bold;
+      color: hwb(0 0% 100% / 0.699);
+      column-count: 1;
+    }
+}
+#insta{
+        
+    width: 20px;
+    height: 20px;
+    margin-left: 50%;
+    display: block;
+    margin-top: 5px;
+
+
+}
+
+.img{
+    margin: 10px 0px 0px 70px;
+}
+#insta{
+    
+    width: 20px;
+    height: 20px;
+    margin-left: 50%;
+    display: block;
+    margin-top: 5px;
+
+
+}
+   
+footer{
+    background-image: linear-gradient(to right, #eeb6c1, #fbdfbb,#c6e5ea);
+    background-size: 100% 100%;
+    animation: degrade-animado 7s infinite alternate;
+    text-align: center;
+    height: 60px;
+    width:100%;
+    color: hwb(0 0% 100% / 0.699);
+    padding-top: 15px;
+}
